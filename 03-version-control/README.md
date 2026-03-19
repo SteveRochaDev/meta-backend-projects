@@ -13,4 +13,4 @@ version control concepts and workflows.
 The final project applies version control principles to manage code and collaborate on a 
 development project efficiently.
 
-Note: This lab was previously completed in the Meta Front-End Developer Professional Certificate and is also included here.
+Note: The labs were previously completed in the Meta Front-End Developer Professional Certificate and is also included here.
