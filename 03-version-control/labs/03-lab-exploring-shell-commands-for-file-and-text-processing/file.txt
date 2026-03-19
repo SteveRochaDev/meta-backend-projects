@@ -1,0 +1,2 @@
+Welcome to Unix Shell Programming
+Unix is a powerful operating system. Learning unix commands is very much essential to work on a Unix based system
