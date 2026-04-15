@@ -1,13 +1,13 @@
 from django.http import HttpResponse
 
-def drinks(request, drink_name):
+def home(request):
+    return HttpResponse("Welcome to Little Lemon!")
 
-    drink = {
-        "mocha": "type of coffee",
-        "tea": "type of beverage",
-        "lemonade": "type of refreshment"
-    }
+def about(request):
+    return HttpResponse("About us")
 
-    choice_of_drink = drink[drink_name]
+def menu(request):
+    return HttpResponse("Menu")
 
-    return HttpResponse(f"<h2>{drink_name}</h2><p>{choice_of_drink}</p>")
+def book(request):
+    return HttpResponse("Make a booking")
