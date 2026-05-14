@@ -1,0 +1,23 @@
+Superuser:
+- username: admin
+- password: adminpass
+
+Manager:
+- username: manager
+- password: managerpass
+
+Delivery crew:
+- username: delivery
+- password: deliverypass
+
+Customer:
+- username: customer
+- password: customerpass
+
+Endpoints:
+- Obtain token (login): POST /auth/token/login/ with { "username":"customer", "password":"customerpass" }
+- List menu items: GET /api/menu-items
+- Add to cart: POST /api/cart/menu-items { "menuitem_id": 1, "quantity": 2 }
+- Place order: POST /api/orders
+
+Remember to include db.sqlite3 and this notes.txt when zipping the project for submission.
